@@ -1,1 +1,1 @@
-# AWING Fullstack Test - Frontend (Reactjs + typescript, react-query, react-router-dom)
+# AWING Fullstack Test - Frontend (vite + reactjs + typescript, react-query, react-router-dom)
