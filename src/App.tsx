@@ -7,6 +7,9 @@ import Edit from "./pages/edit";
 export default function App() {
   return (
     <div className="app">
+      <span style={{ fontSize: "3rem" }}>
+        AWING Fullstack Test - Nguyễn Duy Khánh
+      </span>
       <PreviousOutput />
       <Routes>
         <Route path="/" element={<></>} />
