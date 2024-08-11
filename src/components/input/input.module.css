@@ -1,0 +1,22 @@
+.input {
+    gap: 10px;
+    padding: 15px;
+    border: 2px solid #f9f9f9;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input__box {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.input__box > input {
+    padding: 10px;
+}
