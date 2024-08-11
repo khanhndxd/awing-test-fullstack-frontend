@@ -1,0 +1,40 @@
+.previous-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border: 2px solid #f9f9f9;
+    border-radius: 6px;
+}
+.previous-input__list {
+    display: flex;
+    flex-direction: column;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+.table th {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+}
+.table tr:nth-child(even) {
+    background-color: #2c2c2c;
+}
+.table tr:nth-child(odd) {
+    background-color: #1e1e1e;
+}
+.table td,
+.table th {
+    border: 1px solid #444444;
+    padding: 10px;
+    text-align: left;
+}
+.table {
+    border: 1px solid #444444;
+}
+.editButton:hover {
+    background-color: #0056b3;
+}

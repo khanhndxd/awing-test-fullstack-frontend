@@ -3,7 +3,6 @@ export type Inputs = {
   n: string;
   p: string;
 };
-
 export type InputErrors = {
   errors: Inputs;
 };

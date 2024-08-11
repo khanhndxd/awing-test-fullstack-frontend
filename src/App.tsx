@@ -1,18 +1,18 @@
 import "./App.css";
-import Inputs from "./components/input";
-import Output from "./components/output";
-import PreviousOutput from "./components/previousOutput";
+import PreviousOutput from "./components/previousInput";
+import { Route, Routes } from "react-router-dom";
+import Create from "./pages/create";
+import Edit from "./pages/edit";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <div className="app">
-        <PreviousOutput />
-        <Inputs />
-        <Output />
-      </div>
-    </>
+    <div className="app">
+      <PreviousOutput />
+      <Routes>
+        <Route path="/" element={<></>} />
+        <Route path="/create" element={<Create />} />
+        <Route path="/edit/:id" element={<Edit />} />
+      </Routes>
+    </div>
   );
 }
-
-export default App;
